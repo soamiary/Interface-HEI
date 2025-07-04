@@ -60,7 +60,7 @@ function App() {
           alt="background image "
           className="w-screen h-screen object-cover max-h-[600px] mx-auto z-0"
         />
-        <div className="absolute inset-0 bg-black/50"></div>
+        
 
         <button className="bg-secondary text-primary px-4 py-2 rounded">
           Bouton stylé
