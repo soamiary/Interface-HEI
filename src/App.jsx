@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import vraiLogoHEI from "./assets/vraiLogoHEI.png";
+import bg3 from "./assets/backgroundImage3.jpg";
 import "./App.css";
 
 function App() {
@@ -11,9 +13,10 @@ function App() {
       <div>
         <nav
           className="bg-[#001948] text-white 
-           top-0 absolute w-full flex items-center p-[35px] h-3xs"
+           top-0 absolute w-full flex items-center p-[10px] h-3xs"
         >
-          <ul className="flex gap-6 items-center text-white ml-[45%]  ">
+          <img src={vraiLogoHEI} alt="" className="w-[125px] p-0 h-auto" />
+          <ul className="flex gap-6 items-center text-white ml-[37%]  ">
             <li>
               <a
                 href=""
@@ -23,25 +26,41 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="" className="text-white  font-bold hover:text-[#DFA408] -500">
+              <a
+                href=""
+                className="text-white  font-bold hover:text-[#DFA408] -500"
+              >
                 ACTUALITE
               </a>
             </li>
             <li>
-              <a href="" className="text-white   font-bold hover:text-[#DFA408] -500">
+              <a
+                href=""
+                className="text-white   font-bold hover:text-[#DFA408] -500"
+              >
                 BOURSE D'ETUDE
               </a>
             </li>
             <li>
-              <a href="" className="text-white  font-bold hover:text-[#DFA408] -500">
+              <a
+                href=""
+                className="text-white  font-bold hover:text-[#DFA408] -500"
+              >
                 INSCRIPTION
               </a>
             </li>
             <li>
-              <button className="text-white bg-[#DFA408] rounded-[7px] ">INTRANTET</button>
+              <button className="text-white bg-[#DFA408]  ">INTRANTET</button>
             </li>
           </ul>
         </nav>
+
+        <img
+          src={bg3}
+          alt="background image "
+          className="w-screen h-screen object-cover max-h-[600px] mx-auto z-0"
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
 
         <button className="bg-secondary text-primary px-4 py-2 rounded">
           Bouton stylé
