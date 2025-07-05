@@ -14,6 +14,7 @@ import deboucheImage from "./assets/deboucheImage.webp";
 import CloudImage from "./assets/CloudImage.png";
 import AiImage from "./assets/AiImage.png";
 import IngenierieImage from "./assets/IngenierieImage.png";
+import programmeImage from "./assets/programmeImage.webp";
 import "./App.css";
 
 function App() {
@@ -367,10 +368,31 @@ function App() {
             >
               Inscrivez-vous ici{" "}
             </button>
-            <button className=" absolute mt-[250px] text-white
-             ml-[50px] bg-[#001948]  " > Résultats Concours </button>
+            <button
+              className=" absolute mt-[250px] text-white
+             ml-[50px] bg-[#001948]  "
+            >
+              {" "}
+              Résultats Concours{" "}
+            </button>
           </div>
         </div>
+      </div>
+
+      <div className=" absolute  w-full h-[70%] mt-[2700PX] ">
+        <p className="absolute ml-[50%] mt-[100px] text-3xl font-serif font-bold  ">
+          Programme pédagogique
+        </p>
+        <p className="absolute ml-[50%] mt-[170px]  font-serif   ">
+          Suivant le système LMD, jusqu’au Master, notre formation repose sur un
+          programme pédagogique conçu en adéquation avec les attentes du marché.
+          La formation est sanctionnée par un diplôme de Licence et de Master en
+          Informatique reconnu par le MESupRes de Madagascar.
+        </p>
+        <button className="absolute ml-[50%] mt-[350px] bg-transparent border-[#001948] ">
+          Notre Programme
+        </button>
+        <img src={programmeImage} alt=""  className="absolute mt-[120px] ml-[100px] w-[400px] h-[400PX] object-cover"/>
       </div>
 
       <div className="card">
