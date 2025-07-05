@@ -242,10 +242,6 @@ function App() {
         </div>
       </div>
 
-
-
-
-
       <div
         className="bg-[#f2f2f2ff] absolute mt-[1350px]
        pb-[5%] w-full "
@@ -312,6 +308,68 @@ function App() {
             à proposer des solutions pratiques, créatives et innovantes à des
             particuliers ou des entreprises pour leurs besoins numériques.
           </p>
+        </div>
+
+        <div className=" absolute bg-[#6586c7ff] w-full pb-[50%] mt-[50px] ">
+          <p
+            className=" text-white font-serif 
+         absolute text-3xl mt-[30px] ml-[550px] "
+          >
+            Admissions
+          </p>
+          <p
+            className=" text-white font-serif 
+         absolute text-xl mt-[100px] ml-[200px] "
+          >
+            Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se
+            fait par test de niveau :
+          </p>
+          <p
+            className=" text-white font-serif 
+         absolute text-xl mt-[150px] ml-[200px] "
+          >
+            une épreuve de français niveau B2 et d’une épreuve de mathématiques
+            niveau Terminale D.
+          </p>
+
+          <div className=" absolute bg-[#fcdfb6ff] mt-[300px] ml-[100px] w-[400PX] h-[150px] ">
+            <p className=" absolute text-white font-bold ml-[10px] text-4xl ">
+              01
+            </p>
+            <p className=" absolute text-[##001948] font-bold mt-[35px] ">
+              Dépôt de dossiers :
+              <p>pour les bacheliers de toutes séries sans limite d’âge</p>
+            </p>
+          </div>
+
+          <div className=" absolute bg-[#f7d08fff] mt-[300px] ml-[400px] w-[300PX] h-[150px] ">
+            <p className=" absolute text-white font-bold ml-[10px] text-4xl ">
+              02{" "}
+            </p>
+            <p className=" absolute text-[##001948] font-bold mt-[35px] ">
+              Test de niveau :
+              <p>
+                composé d’une épreuve de français niveau B2 et d’une épreuve de
+                mathématiques niveau Terminale D
+              </p>
+            </p>
+          </div>
+          <div className=" absolute bg-[#f2c36bff] mt-[300px] ml-[700px] w-[300PX] h-[150px] ">
+            <p className=" absolute text-white font-bold ml-[10px] text-4xl ">
+              03{" "}
+            </p>
+            <p className=" absolute text-[##001948] font-bold mt-[35px] ">
+              Inscription définitive (si test réussi)
+            </p>
+            <button
+              className=" absolute mt-[250px] text-white
+             ml-[-350px] bg-transparent border-white border-solid "
+            >
+              Inscrivez-vous ici{" "}
+            </button>
+            <button className=" absolute mt-[250px] text-white
+             ml-[50px] bg-[#001948]  " > Résultats Concours </button>
+          </div>
         </div>
       </div>
 
