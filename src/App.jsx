@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import vraiLogoHEI from "./assets/vraiLogoHEI.png";
 import bg3 from "./assets/backgroundImage3.jpg";
@@ -9,6 +8,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faUsersLine } from "@fortawesome/free-solid-svg-icons";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
+import RyanPic from "./assets/RyanPic.webp";
+import MiradoPic from "./assets/MiradoPic.webp";
+
 
 import "./App.css";
 
@@ -168,18 +170,51 @@ function App() {
           </div>
         </div>
 
-        <button className="bg-secondary text-primary px-4 py-2 rounded">
-          Bouton stylé
-        </button>
+        <div className="absolute mt-[100px] pb-[10%] bg-[#6586c7ff] w-full">
+          <p className="text-white  font-serif font-bold text-4xl text-center mt-[70px] px-4 py-2">
+            L'équipe pédagogique
+          </p>
+          <p className="text-white  font-serial text-xl text-center mt-[30px] px-4 py-2">
+            Notre équipe pédagogique se compose d’experts nationaux et
+            internationaux de l’informatique, de la cybersécurité, de
+            l’intelligence artificielle, dont un ingénieur chez Google. Ils sont
+            passionnés par l’informatique et sont engagés vers l’excellence.
+            Nous sommes conscients que cette équipe est la pierre angulaire de
+            l’employabilité de nos étudiants, elle a été soigneusement
+            sélectionnée.
+          </p>
 
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+          <div className="bg-white ml-[100px] mt-[100px] pt-[10px] w-[370px] h-[400px] rounded-[13px] ">
+            <img
+              src={RyanPic}
+              alt=""
+              className=" w-[170px] h-[170px] mt-[15px] ml-[105px] rounded-[50%] "
+            />
+            <p className="font-serif font-bold text-[#001948] mt-[20px] ml-[105px] ">
+              Ryan ANDRIAMAHERY
+            </p>
+            <p className="text-[#001948] mt-[20px] ml-[15px]">
+              Développeur backend | cofondateur et directeur des opérations de
+              HEI
+            </p>
+          </div>
+
+          <div className="bg-white ml-[600px] mt-[-400px] pt-[10px] w-[370px] h-[400px] rounded-[13px] ">
+            <img
+              src={MiradoPic}
+              alt=""
+              className=" w-[170px] h-[170px] mt-[15px] ml-[105px] rounded-[50%] "
+            />
+            <p className="font-serif font-bold text-[#001948] mt-[20px] ml-[105px] ">
+              Mirado RAFENOMAHENINTSOA
+            </p>
+            <p className="text-[#001948] mt-[20px] ml-[15px]">
+              Data and business intelligence Specialist +5
+            </p>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
