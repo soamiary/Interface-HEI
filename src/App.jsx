@@ -10,7 +10,7 @@ import { faUsersLine } from "@fortawesome/free-solid-svg-icons";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import RyanPic from "./assets/RyanPic.webp";
 import MiradoPic from "./assets/MiradoPic.webp";
-
+import deboucheImage from "./assets/deboucheImage.webp";
 
 import "./App.css";
 
@@ -212,6 +212,31 @@ function App() {
               Data and business intelligence Specialist +5
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className=" absolute  w-full h-[50%] mt-[80%] ">
+        <h1 className="text-[#001948] font-serif ml-[150px]  mt-[20px] ">
+          Quelques débouchés
+        </h1>
+
+        <div className="max-w-[700px]  ml-[20px] mt-[20px]  mx-auto">
+          <h2 className="line-clamp-7  text-[#001948] px-4 py-2 text-justify overflow-hidden">
+            Formez-vous à une panoplie de métiers du numérique avec nous et
+            venez acquérir les fondements de la programmation (qui vous servira
+            pour les différents métiers) ! Ce sont des métiers porteurs, des
+            métiers du présent, des métiers du futur… Développeur back end,
+            développeur front end, développeurs mobile, chefs de projet,
+            exploitants cloud, analystes cybersécurité, pentesters, auditeur
+            technique SSI, auditeur organisationnel SSI, administrateur système
+            et réseau, développeur de sécurité…
+          </h2>
+          <img
+            src={deboucheImage}
+            alt=""
+            className=" absolute w-[330px] h-[330px]
+           ml-[70%] mt-[-260px] "
+          />
         </div>
       </div>
 
