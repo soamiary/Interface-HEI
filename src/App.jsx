@@ -3,6 +3,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import vraiLogoHEI from "./assets/vraiLogoHEI.png";
 import bg3 from "./assets/backgroundImage3.jpg";
+import soccerTeam from "./assets/soccerTeam.jpg";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faUsersLine } from "@fortawesome/free-solid-svg-icons";
+import { faMedal } from "@fortawesome/free-solid-svg-icons";
+
 import "./App.css";
 
 function App() {
@@ -93,6 +100,70 @@ function App() {
               >
                 Programme pédagogique
               </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1 className=" mt-[70px] ml-[600px] font-serif font-bold ">
+              A propos de nous{" "}
+            </h1>
+            <h1 className="text-[#DFA408] mt-[60px] ml-[600px]">
+              <FontAwesomeIcon icon={faGraduationCap} />
+            </h1>
+            <h1
+              className="text-[#001948] font-bold ml-[695px]
+              absolute mt-[-55px] "
+            >
+              +3ans
+            </h1>
+            <h2 className="text-[#001948]  mt-[20px] ml-[700px] pb-[135px] mb-[50px] ">
+              Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers
+              de l’informatique. Nous sommes un groupe d’experts, de
+              professionnels et des passionnés de l’informatique de Madagascar
+              et du monde entier.
+            </h2>
+          </div>
+          <div className="ABSOLUTE">
+            <img
+              src={soccerTeam}
+              alt=""
+              className="w-[300px] mt-[-300px]
+               absolute ml-[150px] rounded-md "
+            />
+            <div className=" mt-[-120px] ">
+              <h1 className="text-[#DFA408] mt-[-70px] ml-[600px]">
+                <FontAwesomeIcon icon={faUsersLine} />
+              </h1>
+              <h1
+                className="text-[#001948] font-bold ml-[695px]
+              absolute mt-[-55px] "
+              >
+                +250étudiants
+              </h1>
+              <h2 className="text-[#001948]  mt-[20px] ml-[700px] pb-[135px] mb-[50px] ">
+                Plus de 250 étudiants et plus d’une dizaine d’entreprises ont
+                déjà fait confiance à notre formation habilitée par l’État
+                malgache. Avec eux tous, nous sommes fiers de pouvoir parler de
+                la “grande famille HEI”.
+              </h2>
+            </div>
+            <div className="absolute  mt-[-200px] ">
+              <h1 className="text-[#DFA408] mt-[60px] ml-[600px]">
+                <FontAwesomeIcon icon={faMedal} />
+              </h1>
+              <h1
+                className="text-[#001948] font-bold ml-[695px]
+              absolute mt-[-55px] "
+              >
+                Notre mission
+              </h1>
+              <h2 className="text-[#001948]  mt-[20px] ml-[700px] pb-[135px] mb-[50px] ">
+                Notre mission est d’amener des jeunes malgaches sur des domaines
+                porteurs comme l’intelligence artificielle, la cybersécurité ou
+                la programmation afin de favoriser leur employabilité et le
+                développement de Madagascar.
+              </h2>
             </div>
           </div>
         </div>
