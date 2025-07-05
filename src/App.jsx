@@ -11,7 +11,9 @@ import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import RyanPic from "./assets/RyanPic.webp";
 import MiradoPic from "./assets/MiradoPic.webp";
 import deboucheImage from "./assets/deboucheImage.webp";
-
+import CloudImage from "./assets/CloudImage.png";
+import AiImage from "./assets/AiImage.png";
+import IngenierieImage from "./assets/IngenierieImage.png";
 import "./App.css";
 
 function App() {
@@ -237,6 +239,79 @@ function App() {
             className=" absolute w-[330px] h-[330px]
            ml-[70%] mt-[-260px] "
           />
+        </div>
+      </div>
+
+
+
+
+
+      <div
+        className="bg-[#f2f2f2ff] absolute mt-[1350px]
+       pb-[5%] w-full "
+      >
+        <p
+          className=" text-[#001948] font-serif font-bold
+         absolute text-3xl mt-[30px] ml-[550px] "
+        >
+          Domaines
+        </p>
+        <p
+          className=" text-[#001948] font-serif 
+         absolute text-xl mt-[100px] ml-[50px] "
+        >
+          Au cours de vos trois ans de formation, naviguez entre les domaines
+          les plus porteurs du numérique du présent et de l’avenir :
+        </p>
+        <div className="bg-white ml-[50px] mt-[150px] pt-[10px] w-[370px] h-[600px] rounded-[13px] ">
+          <img
+            src={CloudImage}
+            alt=""
+            className=" w-[170px] h-[170px] mt-[15px] ml-[105px]  "
+          />
+          <p className="font-serif font-bold text-[#DFA408] mt-[20px] ml-[105px] ">
+            Cloud et cybersécurité
+          </p>
+          <p className="text-[#001948] mt-[20px] ml-[15px]">
+            Maîtrisez les engrenages des outils en ligne interconnectés sur les
+            nuages (comme sur AWS). Ou encore, devenez maître de la sécurisation
+            des données en ligne ou des programmes et applications contre les
+            cybermenaces. Chez HEI, vous allez vous former dans le domaine du
+            cloud et de la cybersécurité.
+          </p>
+        </div>
+        <div className="bg-white ml-[450px] mt-[-600px] pt-[10px] w-[370px] h-[600px] rounded-[13px] ">
+          <img
+            src={AiImage}
+            alt=""
+            className=" w-[170px] h-[170px] mt-[15px] ml-[105px]  "
+          />
+          <p className="font-serif font-bold text-[#DFA408] mt-[20px] ml-[105px] ">
+            Intelligence artificielle
+          </p>
+          <p className="text-[#001948] mt-[20px] ml-[15px]">
+            Le monde de la reconnaissance faciale ou la détection d’obstacles
+            par les voitures semi-autonomes vous fascinent ? Ce n’est pas
+            sorcier, cela s’apprend. Apprenez les bases de l’intelligence
+            artificielle lors de vos cours chez HEI.
+          </p>
+        </div>
+        <div className="bg-white ml-[850px] mt-[-600px] pt-[10px] w-[370px] h-[600px] rounded-[13px] ">
+          <img
+            src={IngenierieImage}
+            alt=""
+            className=" w-[170px] h-[170px] mt-[15px] ml-[105px]  "
+          />
+          <p className="font-serif font-bold text-[#DFA408] mt-[20px] ml-[105px] ">
+            Ingénierie logicielle
+          </p>
+          <p className="text-[#001948] mt-[20px] ml-[15px]">
+            Apprenez les principes de la conception ou le développement de
+            programmes et d’applications web et mobile et explorez le monde
+            fascinant des “codes”. A la fin de votre formation, vous serez aptes
+            à proposer des solutions pratiques, créatives et innovantes à des
+            particuliers ou des entreprises pour leurs besoins numériques.
+          </p>
         </div>
       </div>
 
